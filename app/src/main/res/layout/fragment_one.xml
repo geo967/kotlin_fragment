@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:backgroundTint="#83CD5D"
+    android:background="#83CD5D"
+    tools:context=".FragmentOne">
+
+    <EditText
+        android:id="@+id/editText_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_msg"
+        android:autofillHints="this is my msg"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/send_button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send"/>
+
+
+</LinearLayout>
